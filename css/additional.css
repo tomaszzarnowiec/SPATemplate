@@ -1,0 +1,176 @@
+.project-top-icons
+{
+    cursor: pointer; 
+    height: 100%; 
+    padding: 10px;
+    text-align: center;
+    color: #eee;
+}
+
+.project-top-icons .ico
+{
+    margin-bottom: 5px;
+}
+
+.project-row
+{
+    
+}
+
+.tab-content
+{
+    background: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.tab-content.wyceny-tab
+{
+    background: #fcfcfc;
+}
+
+.nav-tabs.wyceny-tab > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: #fcfcfc;
+}
+
+.new-project-header
+{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.notatki-rows p
+{
+    border-left: 2px solid rgb(134, 163, 216);
+    padding-left: 10px;
+}
+
+.notatki-rows p .data
+{
+    color: #aaa;
+    font-weight: 100;
+}
+
+.calendar-th
+{
+    font-weight: 700;
+}
+
+.calendar-prev, .calendar-next
+{
+    cursor: pointer;
+}
+
+.calendar-prev:hover, 
+.calendar-next:hover
+{
+    color: #e9573f;
+}
+
+.calendar-task-text
+{
+    border-left: 2px solid #2a74d6;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.calendar-task-time
+{
+    font-weight: 700;
+    color: #777;
+}
+
+.calendar-day
+{
+    cursor: pointer;
+}
+
+.calendar-day-tasks
+{
+    position: fixed;
+    right: 21%;
+    width: 21%;
+    top: 59px;
+    z-index: 5;
+    background: #F8F8F8;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.company-stamp{
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+}
+
+.company-stamp .c-name{
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: #4a89dc;
+}
+
+.company-stamp .c-contact{
+    width: 100%;
+    text-align: center;
+}
+
+.company-stamp .c-address{
+    width: 100%;
+    text-align: center;
+}
+
+.company-stamp .c-user-name{
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.company-stamp .c-user-contact{
+    width: 100%;
+    text-align: center;
+}
+
+.border-tb-double
+{
+    border-bottom: 5px double #ddd;
+    border-top: 5px double #ddd;
+}
+
+.border-b-double
+{
+    border-bottom: 5px double #ddd;
+}
+
+.wycena-form .form-control.small
+{
+    height: 30px;
+    padding: 3px 12px;
+}
+
+.suggestions-panel{
+    border: 1px solid rgb(221, 221, 221);
+    position: absolute;
+    z-index: 999;
+    background: #fcfcfc;
+}
+
+.suggestion{
+    cursor: pointer;
+    margin: 0;
+    padding: 5px 15px 5px 10px;
+}
+
+.suggestion:hover{
+    background: #ddd;
+}
+
+.fullLoaderColor-red{
+    background: #e9573f;
+}
+
+.fullLoaderColor-system{
+    background: #5DAB90;
+}
